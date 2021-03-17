@@ -6,11 +6,6 @@ img/wood.png, img/wall-1.png, img/wall-2.png.
 body
 {
 margin:10px;
-display:table;
-}
-body article
-{
-display:table-cell;
 }
 
 article {
@@ -24,18 +19,48 @@ article {
 article ul
 {
 display:table-row;
-height:100px;
+height:115px;
 }
+article ul + ul
+{
+display:table-row;
+background-image:url('img/wall-1.png');
+}
+
 article li
 {
 display:table-cell;
-margin:auto;
-padding:15px 0px 10px 0px;
 border:10px solid #686868;
 background-image:url('img/wall-1.png');
-width:100px;
+text-align:center;
+vertical-align:middle;
+}
+
+article ul + ul > li
+{
+  background-image:url('img/wall-2.png');
+  }
+
+article ul + ul > li
+{
+  width:110px;
+  }
+
+article ul + ul > li + li
+{
+  width:90px;
+  }
+
+article ul + ul > li + li + li
+{
+display:table-cell;
+padding:15px 0px 10px 0px;
+border:10px solid #686868;
+width:150px;
 text-align:center;
 }
+
+
 
 /*
 фоновые картинки, которые используются в оформлении:
