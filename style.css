@@ -1,8 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   
 body {
     background-color: #EFE6E4;
-    
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h1
 {
     font-size: 20px;
+    margin: 0;
+}
+.page-1{
+    margin: 0;
+    padding: 0px;
+    width:1400px;
+    height: 715px;
+    background-image: url("/img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png");
+}
+.menu-1 {
+margin: 0;
+}
+
+.menu-1 li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 30px; /* Поля вокруг текста */
+    color: #533738;
+}
+nav .menu-1
+{
+    padding-left: auto;
+    padding-right: auto;
+    width:1400px;
+    height: 715px;
 }
