@@ -1,0 +1,67 @@
+.checklist {
+    display: table;
+  }
+  
+  .checklist ul {
+    display: table-row;
+  }
+  
+  .checklist li {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid;
+  }
+  
+  .checklist h1 {
+    display: table-caption;
+  }
+  
+  .checklist header {
+    display: table-header-group;
+  }
+  
+  .checklist header li {
+    border-color: black;
+  }
+  
+  .checklist footer {
+    display: table-footer-group;
+  }
+  
+  .checklist footer li {
+    border-color: black;
+  }
+  
+  .checklist .content {
+    display: table-row-group;
+  }
+  
+  .checklist .content li {
+    border-color: black;
+  }
+  
+  .checklist .content-important li {
+    border-color: black;
+  }
+  
+  .checklist .column {
+    display: table-column;
+    background-color: #fff6d9;
+  }
+  
+  .checklist .column-group {
+    display: table-column-group;
+  }
+  
+  .checklist .column-group .column {
+    background-color: #ffaa94;
+  }
+a {
+    color: #777777
+    #ffffff
+    #fffebc
+    #b2fdd0
+    #ffbaba;
+}  
+
+  
