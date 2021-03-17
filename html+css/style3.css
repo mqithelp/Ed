@@ -54,10 +54,10 @@ article ul + ul > li + li
 article ul + ul > li + li + li
 {
 display:table-cell;
-padding:15px 0px 10px 0px;
 border:10px solid #686868;
 width:150px;
 text-align:center;
+
 }
 
 
